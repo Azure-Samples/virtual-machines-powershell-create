@@ -141,4 +141,4 @@ function Create-AzureRmVM(){
 ## Additional Resources 
 - Manage Azure resource: [https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-ps-manage/](https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-ps-manage/)
 
-[1]: images\1.png
+[1]: images/1.png
