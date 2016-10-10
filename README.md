@@ -9,7 +9,9 @@ author: msonecode
 ## Introduction
 This sample demonstrates [how to make use of  Azure ARM (Azure Resource Manager) cmdlet to create RM VM on Azure platform](https://gallery.technet.microsoft.com/How-to-create-Azure-VM-by-22f8bea9).
 
-For How to create Azure VM by Powershell using classic ASM API version, see  [https://gallery.technet.microsoft.com/How-to-create-Azure-VM-by-b894d750](https://gallery.technet.microsoft.com/How-to-create-Azure-VM-by-b894d750)
+**Related Topics**
+- [How to create Azure VM by Powershell using classic ASM API version](https://gallery.technet.microsoft.com/How-to-create-Azure-VM-by-b894d750)
+- [How to set expired date of Azure Virtual Machine by PowerShell](https://gallery.technet.microsoft.com/How-to-set-expired-date-of-826800a7)
 
 ## Scenarios
 Currently, there exists two kinds of API to manage Azure Resource. One is the latest API suite ARM (Azure Resource Management” API, the other is the old classic ASM (Azure Service Model) API. Both API suites can be used to create VM. However, only the ARM API can create RM VM that can be viewed on the Azure Portal [https://portal.azure.com](https://portal.azure.com).
