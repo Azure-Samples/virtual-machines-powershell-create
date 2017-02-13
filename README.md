@@ -14,12 +14,12 @@ This sample demonstrates [how to make use of  Azure ARM (Azure Resource Manager)
 - [How to set expired date of Azure Virtual Machine by PowerShell](https://gallery.technet.microsoft.com/How-to-set-expired-date-of-826800a7)
 
 ## Scenarios
-Currently, there exists two kinds of API to manage Azure Resource. One is the latest API suite ARM (Azure Resource Management” API, the other is the old classic ASM (Azure Service Model) API. Both API suites can be used to create VM. However, only the ARM API can create RM VM that can be viewed on the Azure Portal [https://portal.azure.com](https://portal.azure.com).
+Currently, there exist two kinds of API to manage Azure Resource. One is the latest API suite ARM (Azure Resource Management) API, the other is the old classic ASM (Azure Service Model) API. Both API suites can be used to create VM. However, only ARM API can create RM VM that can be viewed on the Azure Portal [https://portal.azure.com](https://portal.azure.com).
 
-IT Pros have the requirement to automate the VM creation job through Powershell. They cannot find enough material which can instruct them how to go through the ARM API to create VM. This sample tries to amend the instruction.
+IT Pros might be required to automate the VM creation job through Powershell, yet they cannot find enough material to instruct them in going through the ARM API to create VM. This sample tries to amend the instruction.
 
 ## Prerequisite 
-- Install Azure Powershell according to [https://azure.microsoft.com/en-us/documentation/articles/powershell-install-configure/](https://azure.microsoft.com/en-us/documentation/articles/powershell-install-configure/)
+- Install Azure PowerShell according to [https://azure.microsoft.com/en-us/documentation/articles/powershell-install-configure/](https://azure.microsoft.com/en-us/documentation/articles/powershell-install-configure/)
 - Persisting Azure PowerShell logins [https://blogs.msdn.microsoft.com/stuartleeks/2015/12/11/persisting-azure-powershell-logins/](https://blogs.msdn.microsoft.com/stuartleeks/2015/12/11/persisting-azure-powershell-logins/)
 
 ## Script
@@ -28,10 +28,10 @@ IT Pros have the requirement to automate the VM creation job through Powershell.
 ```ps1
 Create-AzureRmVM  -ResourceGroupName ocoslab-tanyue -LocationName eastasia -VMName vm-frta-test01 -RmProfilePath C:\PS\azureaccount.json
 ```
-- **Open the powershell and run the script file** RMCreateVM.ps1  
+- **Open the PowerShell and run the script file** RMCreateVM.ps1  
 ![][1]  
 
-**Here are some code snippets for your references.**  
+**Here are some code snippets for your reference.**  
 
 ```ps1
 # Create a Windows VM using Resource Manager 
