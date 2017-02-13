@@ -4,7 +4,7 @@ platforms: powershell
 author: msonecode
 ---
 
-# How to create Azure Virtual Machine (VM) by Powershell using ARM API
+# How to create Azure Virtual Machine (VM) by PowerShell using ARM API
 
 ## Introduction
 This sample demonstrates [how to make use of  Azure ARM (Azure Resource Manager) cmdlet to create RM VM on Azure platform](https://gallery.technet.microsoft.com/How-to-create-Azure-VM-by-22f8bea9).
